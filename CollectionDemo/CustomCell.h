@@ -7,8 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+@protocol dds <NSObject>
+
+- (void)changed;
+
+@end
 
 @interface CustomCell : UICollectionViewCell<UITextFieldDelegate>
 @property (strong, nonatomic) UITextField *textField;
 @property (strong, nonatomic) NSString *holder;
+@property (assign, nonatomic) id<dds>delegate;
+
 @end

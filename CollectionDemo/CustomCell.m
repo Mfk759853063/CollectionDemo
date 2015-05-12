@@ -33,9 +33,15 @@
     [super layoutSubviews];
     CGRect bounds = CGRectMake(0, 0, self.textField.bounds.size.width, self.bounds.size.height);
     [self.textField setFrame:CGRectMake(0, 0, bounds.size.width, self.frame.size.height)];
-    self.bounds = bounds;
+    CGRect frame = self.frame;
+    frame.size.width = bounds.size.width;
+    self.frame = frame;
 }
 
+- (void)setBounds:(CGRect)bounds
+{
+    [super setBounds:bounds];
+}
 
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
 {
@@ -50,6 +56,7 @@
     self.textField.bounds = CGRectMake(0, 0, bounds.size.width,bounds.size.height);
     [self layoutSubviews];
     NSLog(@"%@",NSStringFromCGRect(bounds));
+    [self.delegate changed];
     
 }
 
