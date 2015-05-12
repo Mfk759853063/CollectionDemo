@@ -15,7 +15,6 @@
 		C853C3DC1B019000004075D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C853C3DA1B019000004075D3 /* LaunchScreen.xib */; };
 		C853C3E81B019000004075D3 /* CollectionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C853C3E71B019000004075D3 /* CollectionDemoTests.m */; };
 		C853C3F31B019057004075D3 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C853C3F21B019057004075D3 /* CustomCell.m */; };
-		C853C3F51B0196AB004075D3 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C853C3F41B0196AB004075D3 /* CustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +43,6 @@
 		C853C3E71B019000004075D3 /* CollectionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionDemoTests.m; sourceTree = "<group>"; };
 		C853C3F11B019057004075D3 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
 		C853C3F21B019057004075D3 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
-		C853C3F41B0196AB004075D3 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +91,6 @@
 				C853C3D51B018FFF004075D3 /* Main.storyboard */,
 				C853C3F11B019057004075D3 /* CustomCell.h */,
 				C853C3F21B019057004075D3 /* CustomCell.m */,
-				C853C3F41B0196AB004075D3 /* CustomCell.xib */,
 				C853C3D81B018FFF004075D3 /* Images.xcassets */,
 				C853C3DA1B019000004075D3 /* LaunchScreen.xib */,
 				C853C3CB1B018FFF004075D3 /* Supporting Files */,
@@ -209,7 +206,6 @@
 			files = (
 				C853C3D71B018FFF004075D3 /* Main.storyboard in Resources */,
 				C853C3DC1B019000004075D3 /* LaunchScreen.xib in Resources */,
-				C853C3F51B0196AB004075D3 /* CustomCell.xib in Resources */,
 				C853C3D91B018FFF004075D3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

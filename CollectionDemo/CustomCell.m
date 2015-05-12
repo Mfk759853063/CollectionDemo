@@ -31,8 +31,9 @@
 - (void)layoutSubviews
 {
     [super layoutSubviews];
-    CGRect boud = CGRectMake(0, 0, self.textField.bounds.size.width, 55);
-    [self.textField setFrame:CGRectMake(5, 0, boud.size.width, self.frame.size.height)];
+    CGRect bounds = CGRectMake(0, 0, self.textField.bounds.size.width, self.bounds.size.height);
+    [self.textField setFrame:CGRectMake(0, 0, bounds.size.width, self.frame.size.height)];
+    self.bounds = bounds;
 }
 
 
